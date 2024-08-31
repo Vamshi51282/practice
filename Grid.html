@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0;
+        }
+    
+         .parent{
+             display: grid;
+             grid-template-columns: repeat(5,1fr);
+             gap: 1%;
+             <!-- grid-column-gap: 20px;
+             grid-row-gap: 20px; -->
+         }
+         .child{
+             background-color:palevioletred;
+             <!-- margin: 2px; -->
+         }
+         .one{
+               grid-row-start: 1;
+               grid-row-end: 3;
+               grid-column-start: 1;
+               grid-column-end: 4; 
+               height: 250px; 
+         }
+          .two{
+              grid-row-start: 1;
+              grid-row-end: 2;
+              grid-column-start: 4;
+              grid-column-end: 6; 
+          }
+          .three{
+              grid-column-start: 4;
+              grid-column-end: 6;
+          }
+          .four{
+              grid-column-start: 4;
+              grid-column-end: 6;
+              height: 250px;
+          }
+          .five{
+              grid-row-start: 3;
+              grid-row-end: 4;
+              grid-column-start: 1;
+              grid-column-end: 6;
+              height: 100px;
+          }
+          .six{
+              grid-row-start: ;
+              grid-row-end: ;
+          }
+          .seven{
+              grid-row-start: 4;
+              grid-row-end: 5;
+              grid-column-start: 2;
+              grid-column-end: 3;
+          }
+          .eight{
+              grid-row-start: 4;
+              grid-row-end: 5;
+              grid-column-start: 3;
+              grid-column-end: 4;
+          }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="child one">div1</div>
+    <div class="child two">div2</div>
+    <div class="child three">div3</div>
+    <div class="child four">div4</div>
+    <div class="child five">div5</div>
+    <div class="child six">div6</div>
+    <div class="child seven">div7</div>
+    <div class="child eight">div8</div>
+
+    </div>
+</body>
+</html>

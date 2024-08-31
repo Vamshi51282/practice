@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: blanchedalmond;
+}
+.hello{
+    background-color: burlywood;
+    font-size: 40px;
+    position: relative;
+}
+.hello::before{
+    content: "hi";
+    background-color: chartreuse;
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    top: 0;
+    transition: width 0.5s;
+}
+.hello::after{
+    content: "hi";
+    background-color: aqua;
+}

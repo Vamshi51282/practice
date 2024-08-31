@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        padding: 20px;
+        color: aliceblue;
+        text-decoration: none;
+        text-align: center;
+      }
+      #a {
+        background-color: black;
+        padding: 20px;
+        padding-left: 35%;
+      }
+      .b {
+        text-align: center;
+      }
+      #c {
+        text-align: center;
+      }
+      #d {
+        text-align: center;
+      }
+      .s {
+        width: 400px;
+        border: 300px;
+        background-color: wheat;
+        padding: 30px;
+        border-radius: 10%;
+        <!-- margin-left: 200px; -->
+        text-align: center;
+      }
+     
+      .m {
+        width: 400px;
+        border: 300px;
+        background-color: wheat;
+        padding: 30px;
+        border-radius: 10%;
+        text-align: center;
+      }
+     
+      .q {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+      }
+      #h {
+        text-align: center;
+      }
+      @media Screen and (min-width:451px) and (max-width: 768px) {
+        .q{
+          flex-wrap:wrap;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="a">
+      <a href="#Home">Home</a>
+      <a href="#c">About</a>
+      <a href="#d">Projects</a>
+      <a href="#h">Contact</a>
+    </div>
+    <div class="b">
+      <h2>Welcome to my portfolio</h2>
+      <p>
+        I am Vamshi Singireddy from Jayashankar(Bhupalpally).I recently
+        graduated from SR University @Warangal,Bachelor of Technology in the
+        stream of Computer Science and Engineering.
+      </p>
+    </div>
+    <div id="c">
+      <h1>About Me</h1>
+      <p>
+        I Belongs to a Nuclear Family.I have Done My Schooling at my Home Town
+      </p>
+      <p>Skills: C, Python, Java, HTML, CSS, SQL</p>
+      <p>Experience:I have done an Internship in Machine Learning</p>
+    </div>
+    <div id="d">
+      <h1>My Projects</h1>
+    </div>
+    <div class="q">
+      <div class="s">
+        
+          <h4>Project 1</h4>
+          <p>Description of Project 1</p>
+        
+      </div>
+      <div class="m">
+    
+          <h4>Project 2</h4>
+          <p>Description of Project 2</p>
+    
+      </div>
+    </div>
+    <div id="h">
+      <h1>Contact Me</h1>
+      <form action="">
+        <label for="name">NAME:</label><br />
+        <input type="name" name="Name" /><br />
+        <label for="email">EMAIL:</label><br />
+        <input type="email" email="EMAIL" /><br />
+        <label for="message">MESSAGE:</label><br />
+        <input type="message" message="MESSAGE" /><br />
+      </form>
+      <button>Send</button>
+    </div>
+  </body>
+</html>
